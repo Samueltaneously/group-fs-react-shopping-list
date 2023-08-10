@@ -14,11 +14,5 @@ app.use(express.static('build'));
 app.use('/list', listRouter);
 /** ---------- START SERVER ---------- **/
 app.listen(PORT,  () => {
-<<<<<<< HEAD:src/server/server.js
     console.log('🙉 on port: ', PORT);
 });
-=======
-    console.log('Listening on port: ', PORT);
-});
-
->>>>>>> 5a07ebe4ea03893f7b762b4ddf6ce16e73711944:server/server.js
